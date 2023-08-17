@@ -1,0 +1,18 @@
+h2, h3, h4{
+    text-align: center;
+}
+
+#p1-d1 {
+    background-color: #00fdff;
+    padding: 24px;
+    
+}
+#p1-d2 {
+    background-color: #e397ff;
+}
+#p1-d3 {
+ background-color: goldenrod;
+}
+#p1-d1, #p1-d2, #p1-d3, #p1-heading{
+    font-family:'Courier New', Courier, Monospace;
+}
