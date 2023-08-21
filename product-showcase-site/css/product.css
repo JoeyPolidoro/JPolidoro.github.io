@@ -1,18 +1,27 @@
-*{
+
+.contain {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 400;
+    padding: 400;
+}
+.contain h2 {
+    text-align:center;
+    font-family: serif;
+}
+.contain p {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .contain {
     width: 75%;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 500x;
+    margin: auto;
     padding: 25px 0;
 }
 
-.contain img{
-    width: 100%;
-    margin: 20px 0;
+.contain img {
+    width: 50%;
+    margin: auto;
     border-radius: 50pc;
 }
