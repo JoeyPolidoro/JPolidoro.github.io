@@ -1,0 +1,19 @@
+.hero {
+    margin: 25px auto;
+    max-width: 800;
+}
+
+.hero img, .hero .content{
+    display: flex;
+    width: 48%;
+    margin: 0;
+    vertical-align: middle;
+}
+.hero
+
+.content h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p, li, a, blockquote{
+    font-family: Arial, Helvetica, sans-serif;
+}
