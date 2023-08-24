@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(204, 241, 241);
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+    ;
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+#header a {
+    text-decoration: none;
+}
+#header #me {
+    color: black;
+}
+#header #tube {
+    color: rgb(240, 137, 171);
+    background-color: teal;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding:  0px 24px;
+}
+
+#sidebar ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid slategrey;
+}
+#sidebar ul a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    padding: 12px;
+}
+#sidebar ul a:hover {
+    background-color: teal;
+    border-radius: solid px;
+    color: rgb(240, 137, 171);
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    background-image: url(../images/valley.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.metube-item:nth-of-type(1) .thumbnail-placeholder {
+    background-image: url(../images/valley.webp);
+}
+.metube-item:nth-of-type(2) .thumbnail-placeholder {
+    background-image: url(../images/desert.webp);
+}
+.metube-item:nth-of-type(3) .thumbnail-placeholder {
+    background-image: url(../images/boat.webp);
+}
+.metube-item:nth-of-type(4) .thumbnail-placeholder {
+    background-image: url(../images/cruise.webp);
+}
+.metube-item:nth-of-type(5) .thumbnail-placeholder {
+    background-image: url(../images/music.webp);
+}
+.metube-item:nth-of-type(6) .thumbnail-placeholder {
+    background-image: url(../images/nyc.webp);
+}
+
+.metube-item h4 {
+    margin: 8px;
+}
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+}
+.metube-item h4 a:hover {
+    text-decoration: underline;
+    color: rgb(215, 85, 129)
+}
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}
