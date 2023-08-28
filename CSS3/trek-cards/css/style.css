@@ -8,10 +8,27 @@
     of the setup.css styling if you do so.
 */
 
-#trek-card-2 img {
-    width: 130%;
-
+#trek-card-1 img {
+    width: 100%;
+    justify-content: center;
+   
 }
+
+#trek-card-1 {
+    width: 350px;
+    background-color: rgb(214, 243, 214); 
+    border: 2px solid #ffe4da;
+    padding: 10px;
+    box-shadow: -4px 4px 12px;
+}
+
+
+#trek-card-2 img {
+    width: 100%;
+    justify-content: center;
+   
+}
+
 #trek-card-2 {
     width: 350px;
     background-color: rgb(214, 243, 214); 
@@ -19,6 +36,40 @@
     padding: 10px;
     box-shadow: -4px 4px 12px;
 }
-.plan {
-    display:block
+
+.card-style-2 {
+    display: block;
+    background-color: green;
+    color:black;
+    text-align: center;
+    padding: 10px;
 }
+
+#trek-card-3 img {
+    width: 100%;
+    justify-content: center;
+   
+}
+
+#trek-card-3 {
+    width: 350px;
+    background-color: rgb(214, 243, 214); 
+    border: 2px solid #ffe4da;
+    padding: 10px;
+    box-shadow: -4px 4px 12px;
+}
+
+#trek-card-4 img {
+    width: 100%;
+    justify-content: center;
+   
+}
+
+#trek-card-4 {
+    width: 350px;
+    background-color: rgb(214, 243, 214); 
+    border: 2px solid #ffe4da;
+    padding: 10px;
+    box-shadow: -4px 4px 12px;
+}
+
