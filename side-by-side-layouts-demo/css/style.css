@@ -1,9 +1,73 @@
-/*
-    Write your CSS for the assignment here.
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 100%;
+}
 
-    You shouldn't need to modify the HTML;
-    however, you are allowed to. 
-    
-    Just be aware that you may break some
-    of the setup.css styling if you do so.
-*/
+.single-column{
+    min-width:600px;
+    max-width:1200px;
+    margin: 0px auto;
+
+}
+#main {
+    background: radial-gradient(at top left,#a8f3f2,#16B6B3);
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .text-container h3{
+    font-size: 48px;
+}
+.side-by-side .text-container .a-btn{
+    font-size: 28px;
+    font-weight:bold;
+    text-decoration: none;
+    display:inline-block;
+    background-color: #1F221C;
+    color: #ffffff;
+    padding: 24px 48px;
+    border-radius: 48px;
+    transition: color .5s;
+}
+.side-byside .text-container .a-btn:hover {
+    color:#16B6B3;
+}
+#card-section{
+    background-color:#ff0000;
+    padding: 38px;
+    color: white;
+}
+.card-container{
+    display:flex;
+    justify-content:space-between;
+}
+.card{
+    flex:1;
+    border: 3px solid white;
+    padding:36px;
+    text-align:center;
+    margin: 36px;
+}
+.card h3{
+    font-size: 36px;
+    margin:24px 0px 0px;
+}
+/* coparison container*/
