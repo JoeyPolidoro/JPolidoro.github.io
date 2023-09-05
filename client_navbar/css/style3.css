@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #632e03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(230, 106, 23);
+    padding: 24px;
+}
+
+#navbar #h2 {
+    color:rgb(10, 155, 10);
+}
+
+#navbar .cta-button {
+    background-color: rgb(230, 106, 23);
+    color: rgb(10, 155, 10);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom,#632e03, rgb(92, 52, 6));
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: rgb(230, 106, 23);
+    padding: 12px 36px;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#footer {
+    background: linear-gradient(to bottom, #632e03, rgb(23, 14, 0));
+    color: rgb(10, 155, 10);
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(230, 106, 23);
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-columns-navbar a {
+    padding: 8px 0px;
+}
