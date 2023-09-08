@@ -6,22 +6,58 @@ body {
     font-family: sans-serif;
 }
 
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
+#navbar {
+    background: linear-gradient(to bottom, #109cb8, #0e5b96);
+    display: flex;
+    align-items: center;
 }
 
-.pictures {
-    width:100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px;
-    /* the two properties below are not necessary for a gallery */
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
     padding: 24px;
-    border: 10px solid #333;
 }
- 
-#NationalParks {
-    width: 50%;
+
+#navbar a:hover {
+    background: linear-gradient(to top, #109cb8, #0e5b96);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-container:last-child .dropdown {
+    right: 0px;
+}
+
+.dropdown a {
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown a:hover {
+    background: slateblue;
 }
