@@ -102,7 +102,7 @@ body {
 
 #card5 .card-front {
     background-image: url(../images/pexels-bahram-yaghooti-9578235.jpg);
-    background-size: cover;
+    background-size: flex;
     background-position: center;
     border-radius: 12px;
     width: 100%;
