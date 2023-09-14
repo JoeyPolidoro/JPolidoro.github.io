@@ -5,7 +5,7 @@
 
 body {
     margin: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
 }
 
 #navbar {
@@ -30,44 +30,29 @@ body {
 #h1 {
     width: 50%; 
     min-width: 500px;
-    margin: px auto; 
+    margin: 0px auto; 
     font-family: 'Lobster', cursive;
 }
-
-body {
-    margin: 0px;
-    font-family: sans-serif; 
-}
-
-.center-column {
-    width: 50%; 
-    min-width: 500px;
-    margin: 0px auto; 
+#paragraph {
     font-family: 'Montserrat', sans-serif;
+    width: 50%; 
+    min-width: 600px;
+    margin: 0px auto;
 }
-* {
-    box-sizing: border-box
+#paragraph2 {
+    font-family: 'Montserrat', sans-serif;
+    width: 50%; 
+    min-width: 600px;
+    margin: 0px auto; 
 }
-
-body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px;
-    padding: 24px;
+.image {
+    display: flex;
+    width: 100%;
 }
 
-.gallery img {
+.image img {
+    padding-left: 36px;
+    padding-right: 36px;
     width: 100%;
 }
 #footer {
