@@ -25,15 +25,3 @@ body {
     margin: 48px auto;
     text-align: center;
 }
-
-.grid {
-    display: center;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-
-.grid img {
-    height: 300px;
-    flex: 1;
-    object-fit: cover;
-}
