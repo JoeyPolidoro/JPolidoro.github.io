@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, rgb(115, 4, 167), #2d0251);
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #2d0251);
     display: flex;
     justify-content: center;
     color: white;
@@ -24,4 +24,59 @@ body {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
+}
+
+
+#hero {
+    background-image: url("../images/Architectural_Illustration_FINAL.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#hero h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+}
+
+#footer {
+    background: linear-gradient(to bottom, #2d0251, #000000);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footernav {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
 }

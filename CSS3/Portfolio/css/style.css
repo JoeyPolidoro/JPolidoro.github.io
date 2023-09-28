@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, rgb(115, 4, 167), #2d0251);
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #2d0251);
     display: flex;
     justify-content: center;
     color: white;
@@ -20,20 +20,36 @@ body {
     padding: 24px;
 }
 
-#layout {
+#main {
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
 }
 
-.grid {
-    display: center;
-    flex-wrap: wrap;
-    gap: 24px;
+.gallery {
+    columns: 3 auto;
+    column-gap: 24px;
 }
 
-.grid img {
-    height: 300px;
-    flex: 1;
-    object-fit: cover;
+.gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#footer {
+    background: linear-gradient(to bottom, #2d0251, #000000);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footernav {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
 }
